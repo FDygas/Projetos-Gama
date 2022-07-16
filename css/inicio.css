@@ -24,19 +24,68 @@ header{
 }
 
 #logoheader{
-    padding: 23px 0px 23px 0px;
+    padding: 23px 0px 23px 80px;
 }
 
-nav{
+.nav-header{
+    display: flex;
+    padding: 0px 100px 0px 0px;
+}
+
+.nav-header ul{
     display: flex;
 }
 
-nav ul{
-    display: flex;
-}
-
-nav ul li{
+.nav-header ul li{
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.nav-header ul li .bot-cursos{
+    padding: 2px 42px 2px 0px;
+    color: #FDFDFD;
+}
+
+.nav-header ul li .bot-blog{
+    padding: 2px 42px 2px 0px;
+    color: #FDFDFD;
+}
+
+.nav-header ul li .bot-contato{
+    padding: 2px 0px 2px 0px;
+    color: #FDFDFD;
+}
+
+footer{
+    display: flex;
+    background-color: #2E948A;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 207px;
+}
+
+footer #logofooter{
+    padding: 0px 0px 0px 120px;
+}
+
+footer .nav-footer1 a{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FDFDFD;
+}
+
+footer .nav-footer2 a{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FDFDFD;
+}
+
+footer .nav-footer2 ul li{
+    border: 2px solid #FDFDFD;
+    border-radius: 62px;
+    padding: 14px 41px 14px 41px;
+    margin: 14px 135px 0px 0px;
+    text-align: center;
 }
